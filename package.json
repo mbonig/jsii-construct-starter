@@ -1,0 +1,69 @@
+{
+  "name": "my-new-construct",
+  "description": "Fill out this description",
+  "version": "0.1.0",
+  "main": "lib/my_construct.js",
+  "types": "lib/my_construct.d.ts",
+  "scripts": {
+    "build": "jsii",
+    "build:watch": "jsii -w",
+    "package": "jsii-pacmak",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "jsii": {
+    "outdir": "dist",
+    "targets": {
+      "python": {
+        "distName": "acme.hello-jsii",
+        "module": "acme.hello_jsii"
+      },
+      "java": {
+        "package": "com.acme.hello",
+        "maven": {
+          "groupId": "com.acme.hello",
+          "artifactId": "hello-jsii"
+        }
+      },
+      "dotnet": {
+        "namespace": "Acme.HelloNamespace",
+        "packageId": "Acme.HelloPackage"
+      }
+    }
+  },
+  "keywords": [
+
+  ],
+  "repository": {
+    "url": "https://...",
+    "type": "git"
+  },
+  "author": {
+    "name": "your name",
+    "email": "your@email.com",
+    "url": "https://yourwebsite.com"
+  },
+  "awscdkio": {
+    "twitter": "mattbonig"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.27.0",
+    "@types/jest": "^24.0.22",
+    "@types/node": "10.17.5",
+    "aws-cdk": "^1.27.0",
+    "jest": "^24.9.0",
+    "jsii": "^0.22.0",
+    "jsii-pacmak": "^0.22.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "^1.27.0"
+  },
+  "peerDependencies": {
+    "@aws-cdk/core": "^1.27.0"
+  }
+}

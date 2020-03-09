@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+cdk.out/
+lib/*.js
+bin/*.js
+test/*.js
+cdk.context.json
+tsconfig.json
+dist
+.jsii
