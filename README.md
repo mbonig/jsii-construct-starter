@@ -1,15 +1,17 @@
 # My New Construct
 
+This is a CDK JSII construct starter repo. To use it, clone this repo and then complete all items in the [What's Next](#whats-next) section. 
+
 What is this construct going to do? Who will find it useful?
 
 # What's next:
 
-- [ ] Change README contents
+- [ ] Change README contents - replace the contents of each section with the specifics of your construct
 - [ ] Update package.json
   - [ ] name
   - [ ] description
   - [ ] jsii.targets
-  - [ ] keywords ("cdk" for enrollment in the Construct Catalog)
+  - [ ] keywords (include "cdk" for enrollment in the Construct Catalog, other keywords will become hashtags)
   - [ ] repository
   - [ ] author
   - [ ] awscdkio (if you'd like an @mention on twitter from the Construct Catalog)
