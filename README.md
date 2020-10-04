@@ -1,5 +1,7 @@
 # My New Construct
 
+**This repository has been made redundant by the Projen probject. Please do not use this to bootstrap new CDK constructs. Instead, use [projen](https://github.com/eladb/projen).**
+
 This is a CDK JSII construct starter repo. To use it, clone this repo and then complete all items in the [What's Next](#whats-next) section. 
 
 What is this construct going to do? Who will find it useful?
